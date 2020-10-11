@@ -367,15 +367,14 @@ main .blog {
 	padding-top: 48px;
 }
 
-.form-element {
+.site-content .sidebar .newsletter .form-element {
 	padding: .5rem 2rem;
 }
 
-.form-element input {
+.site-content .sidebar .newsletter .input-element {
 	width: 80%;
-	padding: 10px;
-	height: 25px;
-	outline: none;
+	height: 1.9rem;
+	padding: .3rem .5rem;
 	font-family: var(--Lexend);
 	font-size: 1rem;
 }
@@ -421,7 +420,7 @@ main .blog {
 footer .newsletter .form-element {
 	background: #000;
 	display: inline-block;
-	padding: 0;
+	width: 74%;
 }
 footer .newsletter input {
 	padding: .5rem .7rem;
@@ -544,5 +543,9 @@ footer .newsletter input {
 	main .blog {
 		background-image: none;
 		height: 100%;
+	}
+
+	.owl-nav {
+		display: block !important;
 	}
 }
