@@ -531,3 +531,18 @@ footer .newsletter input {
 		width: 80%;
 	}
 }
+
+@media only screen and (orientation: landscape) {
+	.nav {
+		height: 4rem;
+	}
+
+	.site-title {
+		height: fit-content;
+	}
+
+	main .blog {
+		background-image: none;
+		height: 100%;
+	}
+}
